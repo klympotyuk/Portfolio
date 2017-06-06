@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Lobster');
+$font_h1:'Lobster', cursive;
+$font_main:'Oswald', sans-serif;
+@import 'font-awesome';
+@import 'slider';
+@import 'mob-menu';
+
+/*for all*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*nav*/
+.main__nav{
+    width: 100%;
+    height: 65px;
+    display: flex;
+    position: fixed;
+    z-index: 3;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.main-nav__items{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5%;    
+}
+.main-nav-items__item{
+    padding-right: 40px;
+}
+.main-nav-items-item__link{
+    text-decoration: none;
+    font-family: $font_h1;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    padding: 5px 10px 7px 7px;
+    border-radius: 7px;
+    transition: all 0.7s;    
+}
+.main-nav-items-item__link:hover{
+    background-color: rgb(255, 99, 82);
+    color: rgb(255, 255, 255);
+}
+/*header*/
+.main-head{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(112, 234, 255);
+    display: flex;
+    flex-direction: column;    
+}
+.main-head__links{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    justify-content: center;
+    padding-top: 130px;
+    transition: all 0.7s;
+}
+.main-head-links__container{
+    display: flex;    
+}
+.main-head-links-container__link{
+    padding: 10px;
+}
+.fa {
+   color: rgb(0, 0, 0);
+   font-size: 60px;
+}
+.fa:hover{
+    color:rgb(255, 255, 255);
+}
+.main-head__info{
+    display: flex;
+    justify-content: space-around;
+}
+.main-head-info__profession{
+    font-family: $font_h1;
+    font-size: 55px;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px; 
+}
+.main-head-info__name{
+    font-family: $font_main;
+    font-size: 40px;
+    padding-top: 130px;
+    padding-left: 20px;
+    padding-right: 20px; 
+}
+/*skils*/
+.my-skills{
+    background-color: rgb(213, 235, 239);
+    width: 100%;
+    height: 570px;
+    display: flex;
+    flex-direction: column;
+}
+.my-skills__title{
+    text-align: center;
+    padding-top: 55px;
+}
+.my-skills-title__h1{
+    font-family: $font_main;
+    font-size: 40px;
+}
+/*works*/
+.my-works{
+    width: 100%;
+    height: 615px;
+    background-color:rgb(235, 235, 235);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.my-works__title{
+    padding-top: 60px;
+}
+.my-works-title_h1{
+    text-align: center;
+    font-family: $font_main;
+    font-size: 40px;
+}
+.my-works__list{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+}
+@import 'work1';
+.my-works-list__work2{
+    background-color: #444444;
+    width: 245px;
+    height: 219px;
+    border-radius: 10px;
+    margin: 17px 16px;
+    display: flex;
+    justify-content: center;
+    a.work2{  
+        padding-top: 10px;      
+        img.work2__img{
+            width: 85%;
+            height: 95%;
+            border-radius: 17px;
+        }
+    }    
+}
+/*footer*/
+.footer{
+    width: 100%;
+    height: 640px;
+    background-color: rgb(194, 194, 194);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer__title{
+    text-align: center;
+    padding-top: 90px;
+}
+.footer-title__name{
+    text-align: center;
+    font-family: $font_main;
+    font-size: 40px;
+}
+.footer__links{
+    padding-top: 20px;
+    padding-bottom: 40px;
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;    
+}
+.footer-links__link{
+    padding-top: 20px;
+    text-decoration: none;
+    transition: all 0.8s;    
+}
+.footer-links__link:hover{
+     color:rgb(255, 255, 255);
+}
+span{
+    font-size: 35px;
+    font-family: $font_main;
+}
+@import 'media';

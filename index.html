@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Портфоліо</title>
+    <link rel="stylesheet" href="css/main.min.css">
+    <script src="js/script.js"></script>    
+</head>
+<body>
+    <nav class="main__nav">
+        <input type="checkbox" id="mob-menu">
+        <label class="min-menu" for="mob-menu">
+            <div class="min-menu__btn">
+                <span class="min-menu-btn__line"></span>
+                <span class="min-menu-btn__line"></span>
+                <span class="min-menu-btn__line"></span>
+                <span class="min-menu-btn__line"></span>
+            </div>
+                <ul>
+                    <li><a class="min-menu-btn__link" href="#c1">Домой</a></li>
+                    <li><a class="min-menu-btn__link" href="#c2">Навыки</a></li>
+                    <li><a class="min-menu-btn__link" href="#c3">Работы</a></li>
+                    <li><a class="min-menu-btn__link" href="#c4">Контакты</a></li>
+                </ul>            
+        </label>
+        <ul class="main-nav__items">
+            <li class="main-nav-items__item"><a class="main-nav-items-item__link" href="#c1">Kлимпотюк Иван</a></li>
+            <li class="main-nav-items__item"><a class="main-nav-items-item__link" href="#c2">Навыки</a></li>
+            <li class="main-nav-items__item"><a class="main-nav-items-item__link" href="#c3">Работы</a></li>
+            <li class="main-nav-items__item"><a class="main-nav-items-item__link" href="#c4">Контакты</a></li>
+        </ul>
+    </nav>
+    <header class="main-head" id="c1">
+        <div class="main-head__links">
+            <div class="main-head-links__container">
+                <a class="main-head-links-container__link" href="mailto:kim777@ukr.net">
+                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                </a>
+                <a class="main-head-links-container__link" href="skype:klympotyuk?call">
+                    <i class="fa fa-skype" aria-hidden="true"></i>
+                </a>
+                <a class="main-head-links-container__link" target="self" href="https://www.facebook.com/ivan.klympotyuk">
+                    <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                </a>
+                <a class="main-head-links-container__link" target="self" href="https://github.com/klympotyuk">
+                    <i class="fa fa-github" aria-hidden="true"></i>
+                </a>           
+            </div>
+        </div>
+        <div class="main-head__info">
+            <h1 class="main-head-info__profession">Frontend Developer</h1>
+            <h1 class="main-head-info__name">Климпотюк Иван</h1>        
+        </div>    
+    </header>
+    <section class="my-skills" id="c2">
+        <div class="my-skills__title">
+            <h1 class="my-skills-title__h1">Навыки</h1>
+        </div>
+        <div class="my-skills__slider">
+            <input type="radio" checked name="slide_switch" id="id1"/>
+	        <label for="id1">
+		        <img src="img/01.jpg" title="Html & Css"/>
+	        </label>
+	        <img src="img/01.jpg"/>
+
+            <input type="radio" name="slide_switch" id="id2"/>
+	        <label for="id2">
+		        <img src="img/02.jpg" title="Java Script"/>
+	        </label>
+	        <img src="img/02.jpg"/>
+
+            <input type="radio" name="slide_switch" id="id3"/>
+	        <label for="id3">
+		        <img src="img/03.jpg" title="Html5 & Css3"/>
+	        </label>
+	        <img src="img/03.jpg"/>
+
+            <input type="radio" name="slide_switch" id="id4"/>
+	        <label for="id4">
+		        <img src="img/04.jpg" title="jQuery"/>
+	        </label>
+	        <img src="img/04.jpg"/>
+
+            <input type="radio" name="slide_switch" id="id5"/>
+	        <label for="id5">
+		        <img src="img/05.jpg" title="Psd to Html"/>
+	        </label>
+	        <img src="img/05.jpg"/>
+        </div>
+    </section>
+    <section class="my-works" id="c3">
+        <div class="my-works__title">
+            <h1 class="my-works-title_h1">Работы</h1>
+        </div>
+        <div class="my-works__list">
+            <div class="my-works-list__work1">
+                <input type="checkbox" id="pcheck">
+                <label for="pcheck"><img src="img/work1.jpg" title="Mini-paint"></label>
+                <div class="paint">
+                    <div class="paint-fild">
+                        <canvas class="canvas" width="450px" height="250px"></canvas>
+                        <div class="colors">
+                            <input type="color" id="color"/> <h1>Палитра</h1>
+                            <label for="pcheck"><i class="fa fa-times-circle" aria-hidden="true"></i></label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="my-works-list__work2">
+                <a href="https://template-91544.firebaseapp.com" class="work2">
+                    <img src="img/work2.jpg" title="website template" class="work2__img">
+                </a>
+
+            </div>            
+        </div>
+    </section>
+    <footer class="footer" id="c4">
+        <div class="footer__title">
+            <h1 class="footer-title__name">Контакты</h1>
+        </div>
+        <div class="footer__links">
+            <a class="footer-links__link" href="mailto:kim777@ukr.net">
+                <i class="fa fa-envelope-o" aria-hidden="true"><span> kim777@ukr.net</span></i>
+            </a>
+            <a class="footer-links__link" href="skype:klympotyuk?call">
+                <i class="fa fa-skype" aria-hidden="true"><span> klympotyuk</span></i>
+            </a>
+            <a class="footer-links__link" target="self" href="https://www.facebook.com/ivan.klympotyuk">
+                <i class="fa fa-facebook-official" aria-hidden="true"><span> Ivan Klympotyuk</span></i>
+            </a>
+            <a class="footer-links__link" href="tel:+380973621775">
+                <i class="fa fa-mobile" aria-hidden="true"><span> +380973621775</span></i>  
+            </a>              
+        </div>       
+    </footer>
+</body>
+</html>

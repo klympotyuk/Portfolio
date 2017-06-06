@@ -1,0 +1,148 @@
+@media (min-width:660px) and (max-width: 860px){
+	.main-nav-items-item__link{    
+        font-size: 20px;
+        text-align: center;       
+    }
+    .fa{
+        font-size: 45px;
+    }
+    .main-head-info__profession, .main-head-info__name{
+        font-size: 45px;
+        padding-left: 20px;
+        padding-right: 20px; 
+    }
+    .my-skills-title__h1 {
+        font-size: 30px;
+    }
+    .my-skills__slider label img {
+        width: 100px;
+    }
+    .my-works-title_h1 {
+        font-size: 30px;
+    }
+    .footer-title__name {
+        font-size: 30px;
+    }
+    span{
+    font-size: 25px;
+    }
+    .my-skills__slider > img {
+        width: 585px;
+    }
+}
+@media screen and (max-width:660px){
+    .min-menu{
+        display: block;
+    }
+    .main-nav__items{
+        display: none;
+    }
+    .main-nav-items-item__link{    
+        font-size: 20px;
+        text-align: center;       
+    }
+    .fa{
+        font-size: 40px;
+    }
+    .main-head-info__profession, .main-head-info__name{
+        font-size: 40px;
+        padding-left: 20px;
+        padding-right: 20px; 
+    }
+    .my-skills-title__h1 {
+        font-size: 30px;
+    }
+    .my-skills__slider{
+        padding-top: 220px;
+    }    
+    .my-skills__slider label img {
+        width: 100px;
+    }
+    .my-works-title_h1 {
+        font-size: 30px;
+    }
+    .footer-title__name {
+        font-size: 30px;
+    }
+    span{
+        font-size: 25px;
+    }
+    .my-skills__slider > img {
+        width: 400px;
+    }
+}
+@media (min-width:425px) and (max-width:480px){
+    .min-menu{
+        display: block;
+    }
+    .main-nav__items{
+        display: none;
+    }
+    
+    .fa{
+        font-size: 35px;
+    }
+    .main-head-info__profession, .main-head-info__name{
+        font-size: 30px;
+        padding-left: 20px;
+        padding-right: 20px; 
+    }
+    .my-skills-title__h1 {
+        font-size: 25px;
+    }
+    .my-skills__slider{
+        padding-top: 220px;
+    }    
+    .my-skills__slider label img {
+        width: 80px;
+    }
+    .my-works-title_h1 {
+        font-size: 25px;
+    }
+    .footer-title__name {
+        font-size: 25px;
+    }
+    span{
+        font-size: 20px;
+    }
+    .my-skills__slider > img {
+        width: 280px;
+    }
+}
+@media screen and (max-width:425px){
+    .min-menu{
+        display: block;
+    }
+    .main-nav__items{
+        display: none;
+    }
+    .fa{
+        font-size: 35px;
+    }
+    .main-head-info__profession, .main-head-info__name{
+        font-size: 30px;
+        padding-left: 20px;
+        padding-right: 20px; 
+    }
+    .my-skills-title__h1 {
+        font-size: 25px;
+    }
+    .my-skills__slider{
+        padding-top: 220px;
+    }    
+    .my-skills__slider label img {
+        width: 80px;
+    }
+    .my-works-title_h1 {
+        font-size: 25px;
+    }
+    .footer-title__name {
+        font-size: 25px;
+    }
+    span{
+        font-size: 20px;
+    }
+    .my-skills__slider > img {
+        width: 280px;
+    }
+}

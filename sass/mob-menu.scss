@@ -1,0 +1,67 @@
+#mob-menu{
+    display: none;
+}
+#mob-menu:checked ~ .min-menu{
+    background-color: rgba(255, 255, 255, 0);
+    display: block;
+    width: 500px;
+    height: 65px;
+    border-radius: 2px;
+    cursor: pointer;
+    div.min-menu__btn{
+        display: none;
+    }
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        list-style-type: none;
+        padding-top:14px; 
+        li{
+            color: rgb(0, 0, 0);
+            padding-left: 20px;
+            a.min-menu-btn__link{
+                font-size: 18px;
+                text-align: center;
+                text-decoration: none;
+                font-family: $font_h1;
+                color: rgb(0, 0, 0);
+                padding: 5px 10px 7px 7px;
+                border-radius: 7px;
+                transition: all 0.7s; 
+            }
+            a.min-menu-btn__link:hover{
+            background-color: rgb(255, 99, 82);
+            color: rgb(255, 255, 255);
+            }
+        }
+     }
+    
+}
+.min-menu{
+    background-color: rgb(0, 0, 0);
+    display: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-left: 5px;
+    div.min-menu__btn{
+        padding-top: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        .min-menu-btn__line{
+            display: block;
+            width: 30px;
+            height: 4px;
+            margin-top: 4px;
+            border-radius: 2px;
+            background-color: rgb(255, 255, 255);
+        }
+    }
+    ul{
+        display: none;
+    }
+}

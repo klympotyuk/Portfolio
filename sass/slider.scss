@@ -1,0 +1,42 @@
+.my-skills__slider{
+    width: 85%;
+    position: relative;
+    padding-top: 330px;
+    margin: 0px auto;
+    display: flex;
+	flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.my-skills__slider input[name='slide_switch']{
+	display: none;
+}
+.my-skills__slider>img{
+	position: absolute;
+	width: 640px;
+    top: 5px;
+	transition: all 0.5s;
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.75);
+}
+.my-skills__slider label{
+	margin: 10px 0 0 10px;
+	border: 2px solid rgb(194, 194, 194);	
+	cursor: pointer;
+	transition: all 0.5s;
+	opacity: 0.8;
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.75);    
+}
+.my-skills__slider label img{
+	display: block;
+	width: 145px;    
+}
+.my-skills__slider input[name='slide_switch']:checked+label{
+	border-color: rgb(89, 89, 89);
+	opacity: 1;
+}
+.my-skills__slider input[name='slide_switch'] ~ img{
+	opacity: 0;
+}
+.my-skills__slider input[name='slide_switch']:checked+label+img{
+	opacity: 1;	
+}
