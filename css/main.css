@@ -3562,8 +3562,14 @@ span {
     font-size: 30px;
   }
 
+  .my-skills__slider {
+    padding-top: 320px;
+  }
   .my-skills__slider label img {
     width: 100px;
+  }
+  .my-skills__slider img {
+    width: 585px;
   }
 
   .my-works-title_h1 {
@@ -3576,10 +3582,6 @@ span {
 
   span {
     font-size: 25px;
-  }
-
-  .my-skills__slider > img {
-    width: 585px;
   }
 }
 @media screen and (max-width: 660px) {
@@ -3613,9 +3615,11 @@ span {
   .my-skills__slider {
     padding-top: 220px;
   }
-
   .my-skills__slider label img {
     width: 100px;
+  }
+  .my-skills__slider img {
+    width: 400px;
   }
 
   .my-works-title_h1 {
@@ -3628,10 +3632,6 @@ span {
 
   span {
     font-size: 25px;
-  }
-
-  .my-skills__slider > img {
-    width: 400px;
   }
 }
 @media (min-width: 425px) and (max-width: 480px) {
@@ -3660,9 +3660,11 @@ span {
   .my-skills__slider {
     padding-top: 220px;
   }
-
   .my-skills__slider label img {
     width: 80px;
+  }
+  .my-skills__slider img {
+    width: 280px;
   }
 
   .my-works-title_h1 {
@@ -3675,10 +3677,6 @@ span {
 
   span {
     font-size: 20px;
-  }
-
-  .my-skills__slider > img {
-    width: 280px;
   }
 }
 @media screen and (max-width: 425px) {
@@ -3705,11 +3703,13 @@ span {
   }
 
   .my-skills__slider {
-    padding-top: 220px;
+    padding-top: 180px;
   }
-
   .my-skills__slider label img {
     width: 80px;
+  }
+  .my-skills__slider img {
+    width: 280px;
   }
 
   .my-works-title_h1 {
@@ -3723,8 +3723,38 @@ span {
   span {
     font-size: 20px;
   }
+}
+@media screen and (max-width: 340px) {
+  .min-menu {
+    display: block;
+    width: 50px;
+    height: 50px;
+  }
+  .min-menu div.min-menu__btn {
+    padding-top: 11px;
+  }
+  .min-menu div.min-menu__btn .min-menu-btn__line {
+    width: 27px;
+    height: 2px;
+  }
 
-  .my-skills__slider > img {
-    width: 280px;
+  .main-nav__items {
+    display: none;
+  }
+
+  .main-head-info__profession, .main-head-info__name {
+    font-size: 27px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .my-skills__slider {
+    padding-top: 160px;
+  }
+  .my-skills__slider label img {
+    width: 100px;
+  }
+  .my-skills__slider img {
+    width: 245px;
   }
 }
