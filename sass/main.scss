@@ -108,7 +108,6 @@ $font_main:'Oswald', sans-serif;
 /*works*/
 .my-works{
     width: 100%;
-    height: 615px;
     background-color:rgb(235, 235, 235);
     text-align: center;
     display: flex;
@@ -127,7 +126,8 @@ $font_main:'Oswald', sans-serif;
     height: 80%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;    
+    justify-content: center;
+    padding-bottom: 30px;   
 }
 @import 'work1';
 .my-works-list__work2{
@@ -141,6 +141,23 @@ $font_main:'Oswald', sans-serif;
     a.work2{  
         padding-top: 10px;      
         img.work2__img{
+            width: 85%;
+            height: 95%;
+            border-radius: 17px;
+        }
+    }    
+}
+.my-works-list__work3{
+    background-color: #444444;
+    width: 245px;
+    height: 219px;
+    border-radius: 10px;
+    margin: 17px 16px;
+    display: flex;
+    justify-content: center;
+    a.work3{  
+        padding-top: 10px;      
+        img.work3__img{
             width: 85%;
             height: 95%;
             border-radius: 17px;

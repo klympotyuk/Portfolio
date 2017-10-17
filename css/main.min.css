@@ -1500,13 +1500,13 @@
 .my-skills-title__h1 { font-family: "Oswald", sans-serif; font-size: 40px; }
 
 /*works*/
-.my-works { width: 100%; height: 615px; background-color: #ebebeb; text-align: center; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
+.my-works { width: 100%; background-color: #ebebeb; text-align: center; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
 
 .my-works__title { padding-top: 60px; }
 
 .my-works-title_h1 { text-align: center; font-family: "Oswald", sans-serif; font-size: 40px; }
 
-.my-works__list { width: 100%; height: 80%; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+.my-works__list { width: 100%; height: 80%; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; padding-bottom: 30px; }
 
 .my-works-list__work1 { background-color: #444444; width: 245px; height: 219px; border-radius: 10px; margin: 17px 16px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; cursor: pointer; }
 .my-works-list__work1 #pcheck { display: none; }
@@ -1524,6 +1524,10 @@
 .my-works-list__work2 { background-color: #444444; width: 245px; height: 219px; border-radius: 10px; margin: 17px 16px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
 .my-works-list__work2 a.work2 { padding-top: 10px; }
 .my-works-list__work2 a.work2 img.work2__img { width: 85%; height: 95%; border-radius: 17px; }
+
+.my-works-list__work3 { background-color: #444444; width: 245px; height: 219px; border-radius: 10px; margin: 17px 16px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+.my-works-list__work3 a.work3 { padding-top: 10px; }
+.my-works-list__work3 a.work3 img.work3__img { width: 85%; height: 95%; border-radius: 17px; }
 
 /*footer*/
 .footer { width: 100%; height: 640px; background-color: #c2c2c2; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }

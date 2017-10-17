@@ -3330,7 +3330,6 @@
 /*works*/
 .my-works {
   width: 100%;
-  height: 615px;
   background-color: #ebebeb;
   text-align: center;
   display: -webkit-box;
@@ -3476,6 +3475,28 @@
   padding-top: 10px;
 }
 .my-works-list__work2 a.work2 img.work2__img {
+  width: 85%;
+  height: 95%;
+  border-radius: 17px;
+}
+
+.my-works-list__work3 {
+  background-color: #444444;
+  width: 245px;
+  height: 219px;
+  border-radius: 10px;
+  margin: 17px 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.my-works-list__work3 a.work3 {
+  padding-top: 10px;
+}
+.my-works-list__work3 a.work3 img.work3__img {
   width: 85%;
   height: 95%;
   border-radius: 17px;
